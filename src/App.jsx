@@ -10,7 +10,7 @@ import ProductDetails from './pages/ProductDetails'
 function App(){
   const [cart, setCart] = useState ([])
   return(
-    <BrowserRouter>
+    <BrowserRouter basename='/ShopZone-ecommerce' >
   
       <Navbar/>
    <Routes>

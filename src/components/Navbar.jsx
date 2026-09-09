@@ -11,7 +11,7 @@ function Navbar(){
 
             <div className='navbar-links'>
 
-                <a href ="/" onClick={(e)=>{
+                <a href ='/' onClick={(e)=>{
                     e.preventDefault()
                     navigate('/')
                 }} > Home</a>
